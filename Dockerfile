@@ -1,4 +1,4 @@
-FROM balenalib/rpi-raspbian
+FROM arm32v7/debian
 
 COPY  . /photom
 RUN ./photom/photomaton-setup.sh
